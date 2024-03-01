@@ -13,6 +13,9 @@ dependencies:
   '@langchain/community':
     specifier: 0.0.27
     version: 0.0.27(@supabase/supabase-js@2.39.3)
+  '@langchain/core':
+    specifier: ^0.1.40
+    version: 0.1.40
   '@langchain/openai':
     specifier: ^0.0.14
     version: 0.0.14
@@ -537,6 +540,23 @@ packages:
 
   /@langchain/core@0.1.25:
     resolution: {integrity: sha512-iFlUXKl68WZ9BQLA70gwfJOgCrLWsb9DYjUSIFRjG0WI+VFMbRpJipfCi0i40EhuLTmyDfCrg+kvpE0yqQ+D5g==}
+    engines: {node: '>=18'}
+    dependencies:
+      ansi-styles: 5.2.0
+      camelcase: 6.3.0
+      decamelize: 1.2.0
+      js-tiktoken: 1.0.10
+      langsmith: 0.0.69-rc0.0
+      ml-distance: 4.0.1
+      p-queue: 6.6.2
+      p-retry: 4.6.2
+      uuid: 9.0.1
+      zod: 3.22.4
+      zod-to-json-schema: 3.22.4(zod@3.22.4)
+    dev: false
+
+  /@langchain/core@0.1.40:
+    resolution: {integrity: sha512-TNX7swnPNFNXftsFMuXLkPhk+9/tE2veLFzuiiuIi0Mz/+jgPi4klHx9jxS8+DHPgMvKzmwsoE8U879iPByXjw==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
